@@ -1,0 +1,20 @@
+stocks_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: ./Data_folder/stocks_data.duckdb
+      schema: main
+      threads: 2
+      settings:
+        memory_limit: '3GB'
+        preserve_insertion_order: false
+
+    prod:
+      type: duckdb
+      path: ./Data_folder/stocks_data.duckdb
+      schema: prod
+      threads: 2
+      settings:
+        memory_limit: '4GB'
+        preserve_insertion_order: false
