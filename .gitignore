@@ -9,7 +9,7 @@ env/
 # dbt
 target/
 dbt_packages/
-Data/
+Data_folder/
 
 # DuckDB database (IMPORTANT)
 *.duckdb
