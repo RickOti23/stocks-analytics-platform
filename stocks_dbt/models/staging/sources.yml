@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw_data
+    description: "Raw data from warehouse"
+    # database: stocks_data
+    schema: main
+
+    tables:
+      - name: stocks
+        description: "Raw stock market data including prices and volumes"

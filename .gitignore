@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+.venv/
+env/
+
+# dbt
+target/
+dbt_packages/
+
+# DuckDB database (IMPORTANT)
+*.duckdb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
